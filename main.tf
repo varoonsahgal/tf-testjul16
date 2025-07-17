@@ -19,4 +19,10 @@ resource "azurerm_resource_group" "main" {
   location = "westus2"
 }
 
+# kicks off pipeline and will run terraform plan and apply!
+resource "azurerm_resource_group" "main" {
+  name     = "myTFResourceGroup2VSjul17"
+  location = "westus2"
+}
+
 

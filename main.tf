@@ -20,7 +20,7 @@ resource "azurerm_resource_group" "main" {
 }
 
 # kicks off pipeline and will run terraform plan and apply!
-resource "azurerm_resource_group" "main" {
+resource "azurerm_resource_group" "main1" {
   name     = "myTFResourceGroup2VSjul17"
   location = "westus2"
 }

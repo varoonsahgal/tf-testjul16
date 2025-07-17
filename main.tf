@@ -6,7 +6,7 @@ provider "azurerm" {
 #kick off pipeline
 resource "azurerm_resource_group" "main" {
   name     = "myTFResourceGroupVSjul16"
-  location = "eastus"
+  location = "westus2"
 }
 
 resource "azurerm_virtual_network" "main" {
